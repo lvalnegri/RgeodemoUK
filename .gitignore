@@ -26,5 +26,5 @@ vignettes/*.pdf
 *.knit.md
 # R Environment Variables
 .Renviron
-dmpkg.geodemouk.Rproj
 .Rbuildignore
+RgeodemoUK.Rproj
