@@ -1,15 +1,21 @@
-Package: dmpkg.geodemouk
+Package: RgeodemoUK
 Type: Package
-Date: 2021-01-01
-Title: Various datasets related to UK small areas
+Date: 2022-09-01
+Title: Various datasets related to UK small areas: *Output Areas* (`OA`) and *Lower*/*Medium Super Output Areas* (`LSOA`/`MSOA`)
 Version: 0.0.1
 Authors@R: person("Luca", "Valnegri", email = "l.valnegri@datamaps.co.uk", role = c("aut", "cre"))
 Description: This package includes datasets designed to help Data Sourcing, Cleaning and Wrangling, plus a bunch of other visualization and geographical stuff.
-License: file LICENSE
+License: MIT + file LICENSE
+URL: https://github.com/lvalnegri/RgeodemoUK
+BugReports: https://github.com/lvalnegri/RgeodemoUK/issues
 Encoding: UTF-8
-Depends: R (>= 4.0)
+Depends: R (>= 4.1)
 Imports:
     data.table,
 Suggests:
+    Rfuns
+Remotes:
+    lvalnegri/Rfuns
 LazyData: true
-RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
